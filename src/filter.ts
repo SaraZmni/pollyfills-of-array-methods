@@ -21,5 +21,5 @@ export const filter = <
   return result as TList;
 };
 
-const result = filter([1, 2, 3, 4, 5], (item) => item < 3);
+export const result = filter([1, 2, 3, 4, 5], (item) => item < 3);
 console.log('result', result)

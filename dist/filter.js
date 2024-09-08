@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.filter = void 0;
+exports.result = exports.filter = void 0;
 const filter = (list, callback) => {
     const result = [];
     for (let index = 0; index < list.length; index++) {
@@ -12,6 +12,6 @@ const filter = (list, callback) => {
     return result;
 };
 exports.filter = filter;
-const result = (0, exports.filter)([1, 2, 3, 4, 5], (item) => item < 3);
-console.log('result', result);
+exports.result = (0, exports.filter)([1, 2, 3, 4, 5], (item) => item < 3);
+console.log('result', exports.result);
 //# sourceMappingURL=filter.js.map
