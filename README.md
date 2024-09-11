@@ -1,3 +1,4 @@
+
 # My JavaScript Utilities
 
 This project includes custom implementations of some common JavaScript array methods: filter, map, and reduce. These methods are implemented from scratch to demonstrate their functionality and to serve as a polyfill for environments where these methods are not available.
