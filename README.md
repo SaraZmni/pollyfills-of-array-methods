@@ -7,3 +7,8 @@ This project includes custom implementations of some common JavaScript array met
 - **Custom filter Implementation**: Filters elements of an array based on a provided condition.
 - **Custom map Implementation**:  Transforms each element of an array based on a provided function.
 - **Custom reduce Implementation**: Reduces an array to a single value based on a provided reducer function and an optional initial value.
+
+## TypeScript Support ✨
+
+This project is written in TypeScript and includes generic types for enhanced type safety and flexibility.
+
